@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Zhang-Jia-Qi.github.io/"/>
-  <updated>2020-07-10T08:07:33.345Z</updated>
+  <updated>2020-07-10T06:57:41.520Z</updated>
   <id>http://Zhang-Jia-Qi.github.io/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>黑暗森林模拟实验:广发英雄帖</title>
-    <link href="http://Zhang-Jia-Qi.github.io/2020/07/09/%E8%84%91%E6%B4%9E-%E5%85%B3%E4%BA%8E%E4%B8%80%E6%AC%A1%E9%BB%91%E6%9A%97%E6%A3%AE%E6%9E%97%E7%A4%BE%E4%BC%9A%E5%BD%A2%E6%80%81%E6%A8%A1%E6%8B%9F%E5%AE%9E%E9%AA%8C%C2%B7%E5%B9%BF%E5%8F%91%E8%8B%B1%E9%9B%84%E5%B8%96/"/>
-    <id>http://Zhang-Jia-Qi.github.io/2020/07/09/脑洞-关于一次黑暗森林社会形态模拟实验·广发英雄帖/</id>
-    <published>2020-07-09T12:57:13.000Z</published>
-    <updated>2020-07-10T08:07:33.345Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>第三次写博客，终于开始涉足M↓，界面也进行了优化，评论功能彻底开放，欢迎大家在文章评论区或者博客留言板中提出宝贵的意见。</strong></p><h2 id="实验设想来源"><a href="#实验设想来源" class="headerlink" title="实验设想来源"></a>实验设想来源</h2><p>记得很久以前听说过一个关于<a href="https://baike.baidu.com/item/%E5%9B%9A%E5%BE%92%E5%9B%B0%E5%A2%83/5739141?fr=aladdin" target="_blank" rel="noopener">“囚徒困境”</a>的研究：研究人员制作了关于囚徒困境的不同策略（例如不论对方是谁都选择背叛、如果自己被背叛过则选择背叛等），并生成了大量不同策略的虚拟“囚徒”，让他们在一个虚拟监狱中不停地被进行“囚徒困境”考验，最终角逐出被判刑年数较少的一些人作为“优胜策略”。他们角逐出的“优胜策略”为“一报还一报”，即如果自己被背叛了，则下次角逐中背叛下一个人，如果自己没有背叛，则选择保守秘密。<br>我希望将这种研究方法作用于“宇宙社会学”的“研(gao)究(xiao)”中，于是决定利用类似的规则来寻找在刘慈欣科幻小说中所描述的“黑暗森林”世界观中的最佳生存策略。</p><h2 id="实验方法"><a href="#实验方法" class="headerlink" title="实验方法"></a>实验方法</h2><p>符号声明：如果未加特意说明，[a,b]表示在一个随机的x使 $x\in [a,b]$。</p><h3 id="基本设定"><a href="#基本设定" class="headerlink" title="基本设定"></a>基本设定</h3><p>首先，设定一个宇宙“沙盘”，大小为1000*1000，将大量具有不同“黑暗森林生存规则”（“黑暗森林生存规则”在实验中被体现为一个函数，详见第三部分“文明规则”）的文明随机生成在整个地图中。文明可以通过“探测”（“探测”行为详见第四部分“交互行为”）随机获得其他文明的坐标，并通过文明自己的“黑暗森林生存规则”决定对其中的哪些文明采取哪些应对方法。文明居住的星球具有0-9共10种“舒适度”等级，“舒适度”将会影响文明发展的难易程度。文明的发达程度通过“发展程度值”（简称“科技值”）体现，在经历一定时间后“科技值”将会反应文明的排名。</p><h3 id="基本规则"><a href="#基本规则" class="headerlink" title="基本规则"></a>基本规则</h3><p>1.模拟采用回合制，每回合中所有文明会按照（在沙盘中的位置）从左往右，从上往下的顺序获得行动机会，后文简称一回合为“一年”或“一次迭代”。<br>2.每个文明活动开始时将会获得一定的科技值加成，规则如下<br>    (1).所有文明的科技点随机增加[-1,+1]点<br>    (2).一小部分文明发生“技术爆炸”，科技再增加[10,20]点，发生技术爆炸的概率为 $\frac{“舒适度”}{100}\times100%+6%$<br>    (3).一小部分文明发生“灾难”，科技点降低[20%,50%]，发生灾难的概率为 $14%-\frac{“舒适度”}{100}\times100%$<br>3.每个文明活动开始时将会对周围太空进行探索，规则如下<br>    (1).每个文明的探索范围受科技值影响，探索的范围为 $5\times\sqrt{“科技值”}$</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;strong&gt;第三次写博客，终于开始涉足M↓，界面也进行了优化，评论功能彻底开放，欢迎大家在文章评论区或者博客留言板中提出宝贵的意见。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;实验设想来源&quot;&gt;&lt;a href=&quot;#实验设想来源&quot; class=&quot;headerlink&quot; ti
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="http://Zhang-Jia-Qi.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>杂谈:我为什么而写作</title>
