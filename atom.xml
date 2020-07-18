@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Zhang-Jia-Qi.github.io/"/>
-  <updated>2020-07-17T13:18:20.911Z</updated>
+  <updated>2020-07-18T15:30:30.472Z</updated>
   <id>http://Zhang-Jia-Qi.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>熟肉/英语练习:推特艰难地抵抗着攻击其防火墙的黑客攻击</title>
+    <link href="http://Zhang-Jia-Qi.github.io/2020/07/18/B-20200718/"/>
+    <id>http://Zhang-Jia-Qi.github.io/2020/07/18/B-20200718/</id>
+    <published>2020-07-18T15:42:23.000Z</published>
+    <updated>2020-07-18T15:30:30.472Z</updated>
+    
+    <content type="html"><![CDATA[<p>就在twitter的技术调查人员周三匆忙的寻找该公司受到的最严重的黑客攻击的源头时，它们发现了一个惊人的事：<br>即使到了周四下午，在黑客们像一些政治人物例如Joseph R. Biden和工业巨头例如Elon Musk推送了比特币陷阱信息整整24小时之后，Twitter的研究人员依然在艰难地搞清楚这次攻击的其他方面，比如是否有员工参与了此事。同时，Twitter也在调查到底有多少个账户受到了影响。</p>]]></content>
+    
+    <summary type="html">
+    
+      至今我们依然不知道为什么推特上最火的几个账号是怎么被盗的
+    
+    </summary>
+    
+      <category term="搬运" scheme="http://Zhang-Jia-Qi.github.io/categories/%E6%90%AC%E8%BF%90/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>熟肉/英语练习:詹姆斯韦伯太空望远镜发射再次延期</title>
