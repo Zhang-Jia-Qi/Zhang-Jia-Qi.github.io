@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://Zhang-Jia-Qi.github.io/"/>
-  <updated>2020-11-08T14:29:43.025Z</updated>
+  <updated>2020-11-08T14:36:19.661Z</updated>
   <id>http://Zhang-Jia-Qi.github.io/</id>
   
   <author>
@@ -17,17 +17,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>高中有机化学合成最无赖方法——无限套娃法</title>
+    <title>化学与信息学的碰撞——有机化学的递归合成法</title>
     <link href="http://Zhang-Jia-Qi.github.io/2020/11/08/X-20201108/"/>
     <id>http://Zhang-Jia-Qi.github.io/2020/11/08/X-20201108/</id>
     <published>2020-11-08T03:31:54.000Z</published>
-    <updated>2020-11-08T14:29:43.025Z</updated>
+    <updated>2020-11-08T14:36:19.661Z</updated>
     
     <content type="html"><![CDATA[<h1 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h1><p>众所周知，人类为了没事闲的什么东西都能合成出来。老师为了刁难学生什么东西都能让学生合成……<br>然后众所周知，我们学习了醇和卤代烃后，得到了至圣法宝一枚——格氏试剂+醛酮的碳链相连反应，例如：<br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108B.png"><br>我们分析此反应的特点，其将两个C相连，且选择性极高，且<strong>不破坏已经活化的反应位点</strong>，因为只要合成出来的不是3°C，我们很容易用CrO₃重新将其氧化为醛酮(醇的氧化反应，也可以用其他氧化剂替代，可以选择合适的氧化剂进行构型选择)，而如果合成出来的是3°C，我们只需要用<strong>卤原子/羟基反马氏位移反应</strong>(我自创的名词，先EtOH/EtONa(或者浓硫酸)消除(对于反扎氏消除，只需要使用t-BuNa即可)再B₂H₆反马硼氢化氧化实现基团位移)将-OH或者-X转移走，从而不需要重新活化C链即可继续进行下一步反应。<br>于是我们就获得了一个真·至圣法宝：合成醇可以用格氏试剂和醛酮反应；而合成格氏试剂需要卤代烃，卤代烃可以由醇合成；合成醛酮也需要醇；于是我们可以进行<strong>递归操作</strong>：对于每个醇，将其分解为格氏试剂和醛酮，然后再将格氏试剂和醛酮转化为次级醇，直到所有C-C键全部被切断，变成工业原料+苯环衍生物。再来在答题纸上依次利用F-K酰基化和工业原料加成将原料合成成醇，醇变成格氏试剂和醛酮，醛酮和格氏试剂再合成醇，再合成下一步格氏试剂或醛酮……即可。<br><strong>但是，格氏试剂需要严格碱性，所以注意酸性H</strong>(不过个人认为可以通过加碱来强行调节pH消掉酸性H)<br>好了，原理讲解完了，我们就可以开始使用无限套娃解题了。</p><h1 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h1><p><strong>用工业原料(乙烯，丙烯，1,3-丁二烯，乙炔，苯，甲苯)合成：</strong><br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108A.png"><br>(我才不会告诉你这个题是我用kingdraw随手瞎画的)<br>首先分析题目，可以知道这题的出题老师肯定脑子有坑（我骂我自己），这个化合物一点特征都没有，显然不可能由讨巧的合成路线，于是我们只能动用递归暴力合成法。<br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108C.png"><br>先把迫害三位老朋友的基础操作默写上去，别的待会再说（个人习惯而已，不必纠结）<br>首先分析目标分子的结构，有一个酚羟基，格氏试剂不能有酸性环境，于是我们最后再上羟基。然后发现中间有一个3°C连了氯原子，所以我认为劈开分子要优先从这里下手，于是分子被一分为二<br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108E.png"><br>先分析有两个苯环的原料，其合成的第一个难点在于-Cl和-R都是邻对位定位基，所以我们需要先用F-K酰基化上一个酰基，利用其间位定位效应定位卤原子后再利用酰基的碳氧双键进行格氏试剂反应。<br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108F.png"><br>然后我们将其剩余的C链切割成一个个的格氏试剂，很容易看出最好的切法（不用昂贵的H₃CMgI）是这样的<br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108G.png"><br>于是很容易想到下一步反应<br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108H.png"><br>这时我们发现此时的反应位点（羟基）挂在了1’C上，需要位移，于是简单分析后发现此位移符合顺扎氏消除-反马氏加成，于是写出位移反应（为了免去位移反应位点两次的麻烦，建议合成时将本体制成格氏试剂，连接的新C链制成醛酮）<br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108I.png"><br>然后下一个加成物，很巧，是苯甲位加成，于是很快写出苯甲位自由基取代和对应的格氏试剂反应，然后将反应物制成卤代烃（格氏试剂）备用<br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108J.png"><br>然后分析含一个苯环的原料，很容易看出其应该如此切割<br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108K.png"><br>然后仿照刚才的格氏偶联（自己起的名字）和扎马位移（自己起的名字），经历一次F-K酰基化，一次顺扎-反马位移，两次格氏偶联，两次反扎-反马位移，再经历一次格氏聚合后铬酐氧化生成我们需要的原料，反应过程如下<br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108L.png"><br>最终两原料再经历一次格氏偶联，然后将苯上的氯取代为酚羟基，C链上的羟基取代为氯代，得到目标产物<br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108M.png"><br>于是全合成路线便可表述为：<br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108D.png"></p><h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><p><strong>看着这一整个屏幕的合成路线，我不禁陷入了对人生和社会的大思考。</strong><br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108N.png"><br><strong>我们通过无限的格氏偶联和扎马位移，是否就具有了构造一切简单化合物（不含稠环芳烃，官能团仅为X、HO、COOH、双键三键等）的能力了呢？</strong><br><strong>此时，我想到了另一个改变世界的工具——程序语言。</strong><br><strong>这两者的碰撞，在我脑中引发了意想不到的火花，然后星火燎原。</strong><br><strong>我发现通过格氏偶联，我们可以将一个大问题（合成大的含有活性原子的分子）转化为相同的小问题（合成小的含有活性原子的分子）。</strong><br><strong>这不正是程序语言中递归的本质吗？我们是否可以利用类似的分而治之的方法来制备有机物呢？</strong><br><strong>至此，我想起了尘封多年的归并排序，分而治之的思想第一次进入我的脑海便是归并排序。</strong><br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108O.png"><br><strong>当时的我，还是一个生疏的OIer，还在远翥楼地下机房苦苦钻研这几句看似简单的代码。</strong><br><img src="https://cdn.jsdelivr.net/gh/Zhang-Jia-Qi/CDN/img/X-20201108P.png"><br><strong>思绪涌上我的心头，我想再次拥有一次改变世界的能力！</strong><br><strong>于是</strong><br><strong>上！代！码！</strong></p><h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><p><strong>伪代码如下</strong><br>[头文件]<br>string s(当前正在合成的碳链，可以表达成一个字符串的形式)<br>void connext(s)<br>{<br>if(碳数小于等于2)return 相应的烯烃到卤代烃或醛酮的反应式<br>else divide(s);<br>}<br>void divide(s)<br>{<br>找到级数最高的高级C<br>将此高级C劈开<br>connext(左边C链)<br>connext(右边C链)<br>return 左C链结果+右C链结果+催化剂+“=”+S<br>}<br>int main()<br>{<br>scan(s)<br>connext(s)<br>}<br><strong>时间不早了，真代码以后再写，或者留给感兴趣的同学自己实现吧，欢迎把真代码投稿来！必有重谢！</strong></p>]]></content>
     
     <summary type="html">
     
-      出题老师吐血三升而亡
+      有趣，但没分
     
     </summary>
     
